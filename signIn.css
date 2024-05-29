@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+
+body{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-image:linear-gradient(to right,rgb(214, 143, 155),rgb(224, 141, 224),rgb(131, 15, 115));
+}
+.box{
+    background-color: transparent;
+    background-size: cover;
+    opacity:1.5;
+    width:450px;
+    height:520px;
+    padding:2rem;
+    margin-top: 30px;
+    margin-left:630px;
+    border-radius:10px;
+    box-shadow:0 20px 35px rgba(139, 1, 134, 0.9);
+    border-style:solid;
+    border-color: black;
+
+}
+
+.form-title{
+    color:#dfe9f5;
+    font-size:1.5rem;
+    font-weight:bold;
+    text-align:center;
+    padding:1.3rem;
+    margin-bottom:0.4rem;
+}
+input{
+    width:100%;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #757575;
+    padding-left:1.5rem;
+    font-size:15px;
+    color:white;
+}
+.input-group{
+    padding:10px;
+    position:relative;
+
+}
+.input-group i{
+    position:absolute;
+    color:white;
+}
+
+.recover{
+    text-align:right;
+    font-size:1rem;
+    margin-bottom:1rem;
+
+}
+.recover a{
+    text-decoration:none;
+    color:white;
+}
+.recover a:hover{
+    text-decoration:underline;
+}
+button{
+    font-size:1.1rem;
+    padding:8px 0;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    width:100%;
+    background:black;
+    color:white;
+    cursor:pointer;
+    transition:0.9s;
+}
+button:hover{
+    background:gray;
+}
+.or{
+    font-size:1.1rem;
+    margin-top:0.5rem;
+    text-align:center;
+}
+.icons{
+    text-align:center;
+}
+.icons i{
+    color:white;
+    padding:0.8rem 1.5rem;
+    border-radius:10px;
+    font-size:1.5rem;
+    border-width:2px; 
+    border-style:solid;
+    border-color:white;
+    margin:0 15px;
+    background-color: black;
+}
+.icons i:hover{
+    background:#07001f;
+    font-size:1.6rem;
+    border-width:2px; 
+    border-style:solid;
+    border-color:white;
+}
+.links{
+    color: white;
+  
+    padding:0 4rem;
+    margin-top:0.9rem;
+    font-weight:bold;
+}
+ #signUpButton, #signInButton{
+    color:white;
+    border:none;
+    background-color:transparent;
+    font-size:1rem;
+    font-weight:bold;
+}
+
+#signUpButton:hover{
+    text-decoration:underline;
+    color: white;
+} 
+#signInButton:hover {
+    text-decoration:underline;
+    color: white;
+} 
+
+.messageDiv{
+    background-color:red;
+    padding:5px;
+    margin:5px;
+    color:white;
+    font-size:1rem;
+    opacity:0;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#signIn{
+   height:502px;
+}
+.question{
+    text-align: center;
+    margin-top: 10px;
+}
+
+::placeholder{
+    color:white;
+}
+
+#signup{
+    height:525px;
+}
+

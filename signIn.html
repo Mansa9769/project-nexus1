@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In page</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="signIn.css">
+</head>
+<body>
+    
+    <div class="box" id="signIn">
+          <h1 class="form-title">Sign In</h1>
+          <form method="post" action="">
+            <div id="signInMessage" class="messageDiv" style="display:none;"></div>
+  
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email"  id="email" placeholder="Email">
+              
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+              <input type="password" id="password"  placeholder="Password">
+            
+            </div>
+            <p class="recover">
+              <a href="#">Recover Password</a>
+            </p>
+           <button  class="btn"  id="submitSignIn">Sign In</button>
+          </form>
+          <p class="or">
+            -----------OR SIGN IN USING---------
+          </p>
+          <div class="icons">
+            <i class="fa-brands fa-google" style="color: #fbfcfe;"></i>
+            <i class="fa-solid fa-phone" style="color: #eff0f0;"></i>
+          </div>
+          <div class="links">
+            <p class="question">Don't have an account?</p>
+            <button id="signUpButton"><a href="signUp.html" style="color: white;">Sign Up</a></button>
+          </div>
+        
+       
+</body>
+</html>

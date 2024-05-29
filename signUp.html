@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="signIn.css">
+</head>
+<body>
+    <div class="box" id="signup">
+      
+        <h1 class="form-title">Register</h1>
+        <form method="post" action="">
+          <div id="signUpMessage" class="messageDiv" style="display:none;"></div>
+          <div class="input-group">
+             <i class="fas fa-user"></i>
+             <input type="text"  id="fName" placeholder="First Name">
+          </div>
+          <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input type="text"  id="lName" placeholder="Last Name">
+             
+          </div>
+          <div class="input-group">
+              <i class="fas fa-envelope"></i>
+              <input type="email"  id="rEmail" placeholder="Email">
+          </div>
+          <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="rPassword"  placeholder="Password">
+          </div>
+         <button class="btn" id="submitSignUp" >Sign Up</button>
+        </form>
+        <p class="or">
+          -----------OR SIGN UP USING---------
+        </p>
+        <div class="icons">
+          <i class="fa-brands fa-google" style="color: #fbfcfe;"></i>
+          <i class="fa-solid fa-phone" style="color: #eff0f0;"></i>
+        </div>
+        <div class="links">
+          <p class="question">Already Have an Account?</p>
+          <button id="signInButton"><a href="signIn.html" style="color: white;">Sign In</a></button>
+        </div>
+      </div>
+</body>
+</html>
